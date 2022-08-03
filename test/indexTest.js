@@ -33,6 +33,8 @@ describe('index.js', function () {
     });
   });
 
+
+
   describe('createFareMultiplier()', function () {
     it('returns a function', function () {
       const fareMultiplier = createFareMultiplier(2);
@@ -46,6 +48,7 @@ describe('index.js', function () {
       expect(fareQuintupler(5)).to.eql(25);
     });
   });
+
 
   describe('fareDoubler()', function () {
     it('is a function', function () {
